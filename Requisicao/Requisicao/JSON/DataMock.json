@@ -3,16 +3,32 @@
     "historyAccountList": [
         {
             "historyID": "9a157e36-7279-41d0-9d30-5310e9afd6321",
-            "date": "2022-11-24T00:00:00.000",
+            "date": "2020-03-24T00:00:00.000",
             "name" : "Bar da Mooca",
             "price": 250.10,
             "iconImage": "ur1-image-mooca"
         },
         {
-            "historyID": "98157e36-7279-41d0-9630-5310e9afd6322",
-            "date": "2022-11-24T00:00:00.000",
+            "historyID": "98157ed0-9630afd6322",
+            "date": "2021-05-24T00:00:00.000",
             "name" : "Bar Nuporanga",
             "price": 150.40,
-            "iconImage": "url-image-nuporanga",
+            "iconImage": "url-image-MN"
+        },
+        {
+            "historyID": "98157e36-7279-41d0-9630-5310e9af432dsffvdd6322",
+            "date": "2022-12-24T00:00:00.000",
+            "name" : "Bar Levis",
+            "price": 190.40,
+            "iconImage": "url-image-CE"
+        },
+        {
+            "historyID": "98157e36-7279-41d0-9630-5313489073489242343240e9afd6322",
+            "date": "2023-01-24T00:00:00.000",
+            "name" : "Bar ButiGrill",
+            "price": 100.40,
+            "iconImage": "url-image-SP"
         }
+        
     ]
+}
