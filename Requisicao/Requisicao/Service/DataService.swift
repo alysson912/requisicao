@@ -8,6 +8,8 @@
 import UIKit
 // protocolo herda Generic Service = acessando o typeAlias e acessando as propriedades
 //  @escaping = func fica alocado na memoria aguardando informação de uma API por ex.
+// usamos @escaping para quando estamos utilizando uma função asyncrona ex: a func aguarda os dados da API, no caso do mock nao precisa pois o metodo será sincrono
+// @escaping = metodo fica armazenado na memoira e que não perca a referencia, pois não sei quando que ele vai retornar os dados
 
 protocol DataServiceProtocol: GenericService {
     func getDataFromJson(completion: @escaping completion<HomeDataModel?>)
@@ -22,12 +24,20 @@ class DataService: DataServiceProtocol {
             //MARK: Usando o Decoder para transformar os dados do JSON em Objeto Swift
             
             do {
-                let data = try Data(contentsOf: url)
-                let dataModel: HomeDataModel = try JSONDecoder().decode(HomeDataModel.self, from: data)// converte o json para binario
-                completion(dataModel, nil)
+                let data = try Data(contentsOf: url)// converte o json para binario
+                let dataModel: HomeDataModel = try JSONDecoder().decode(HomeDataModel.self, from: data)// transforma o binario para objeto
+                completion(dataModel, nil)// dando certo ele retorna retorna aqui
             } catch  {
-                completion(nil, error)
+                completion(nil, error) // dando erro retorna aqui
             }
         }
     }
 }
+
+//MARK: Ex de MVVM
+
+// HomeScreen -> Storyboard/ XIB/ ViewCode
+// Home VC
+// HomeViewModel
+// HomeService -> OBS: quando necessario
+// HomeServiceProtocol

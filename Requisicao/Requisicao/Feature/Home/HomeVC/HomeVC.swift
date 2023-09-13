@@ -16,13 +16,12 @@ class HomeVC: UIViewController {
     override func loadView() {
         screen = HomeScreen()
         view = screen
-       
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .darkGray
-        viewModel.fetchData()
+        viewModel.fetchData() // viewModel vai verificar se houve alguma alteração nos dados do json 
     }
 
 
