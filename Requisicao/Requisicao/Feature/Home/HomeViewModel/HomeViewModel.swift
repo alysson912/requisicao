@@ -12,7 +12,7 @@ class HomeViewModel {
     private let service =  DataService()
     
     func fetchData(){ // chamar metodo de request
-        service.getDataFromJson { result, failure in
+        service.getDataFromURLSession { result, failure in
             if let result = result {
                 print(result)
             } else {
