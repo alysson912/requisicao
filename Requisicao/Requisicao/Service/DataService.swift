@@ -37,7 +37,7 @@ class DataService: DataServiceProtocol {
                     print("SUCCES -> \(#function)")
                     completion(dataModel, nil)// dando certo ele retorna retorna aqui
                 } catch  {
-                    print("ERROR -> \(#function)")
+                    print("ERROR erro de Parse-> \(#function)") // erro ao converter para HomeDataModel
                     completion(nil, error) // dando erro retorna aqui
                 }
                 
@@ -68,7 +68,7 @@ class DataService: DataServiceProtocol {
 //MARK: Ex de MVVM
 
 // HomeScreen -> Storyboard/ XIB/ ViewCode
-// Home VC
+// HomeVC
 // HomeViewModel
 // HomeService -> OBS: quando necessario
 // HomeServiceProtocol
