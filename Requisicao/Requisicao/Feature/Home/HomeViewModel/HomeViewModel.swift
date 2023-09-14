@@ -12,7 +12,7 @@ class HomeViewModel {
     private let service =  DataService()
     
     func fetchData(){ // chamar metodo de request
-        service.getDataFromURLSession { result, failure in
+        service.getDataFromAlamofire { result, failure in
             if let result = result {
                 print(result)
             } else {

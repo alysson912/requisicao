@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Alamofire
+
 // protocolo herda Generic Service = acessando o typeAlias e acessando as propriedades
 //  @escaping = func fica alocado na memoria aguardando informação de uma API por ex.
 // usamos @escaping para quando estamos utilizando uma função asyncrona ex: a func aguarda os dados da API, no caso do mock nao precisa pois o metodo será sincrono
@@ -14,9 +16,24 @@ import UIKit
 protocol DataServiceProtocol: GenericService {
     func getDataFromJson(completion: completion<HomeDataModel?>)  // Func sincrona (Mock)
     func getDataFromURLSession(completion: @escaping completion<HomeDataModel?>) // Func Asincrona (URL Session)
+    func getDataFromAlamofire(completion: @escaping completion<HomeDataModel?>) // Func Asincrona (URL Session)
 }
 
+//MARK: ALAMOFIRE REQUEST
 class DataService: DataServiceProtocol {
+    func getDataFromAlamofire(completion: @escaping completion<HomeDataModel?>) {
+        let urlString: String = "https://run.mocky.io/v3/cd6455aa-81bc-4f5e-b90f-ac4676cb1f0d" // String
+        AF.request(urlString, method: .get).responseDecodable(of: HomeDataModel.self) { response in // requisição com Alamofire
+            debugPrint(response)// printa todo o response
+            switch response.result {
+            case .success(let success):
+                completion(success, nil) // faz a tratativa, faz o fetch
+            case .failure(let error):
+                completion(nil, error)
+            }
+        }
+    }
+    
     
     //MARK: URL Session
     func getDataFromURLSession(completion: @escaping completion<HomeDataModel?>) {
