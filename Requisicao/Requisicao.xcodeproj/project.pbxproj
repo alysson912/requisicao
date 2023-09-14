@@ -18,6 +18,9 @@
 		766C12AD2AAD08E600468262 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766C12AC2AAD08E600468262 /* HomeViewModel.swift */; };
 		766C12B02AAD0AA600468262 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766C12AF2AAD0AA600468262 /* DataService.swift */; };
 		766C12B22AAD0D1C00468262 /* GenericService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766C12B12AAD0D1C00468262 /* GenericService.swift */; };
+		76DC42572AB36D4B00928B5C /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC42562AB36D4B00928B5C /* UIView + Extension.swift */; };
+		76DC425B2AB36E8F00928B5C /* HomeCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC425A2AB36E8F00928B5C /* HomeCustomTableViewCell.swift */; };
+		76DC425E2AB36ED000928B5C /* HomeCustomTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DC425D2AB36ED000928B5C /* HomeCustomTableViewCellScreen.swift */; };
 		FB35660C42FE32891C25C54B /* Pods_Requisicao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F82CCD330A2A99FAD85AC6 /* Pods_Requisicao.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 		766C12AC2AAD08E600468262 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		766C12AF2AAD0AA600468262 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		766C12B12AAD0D1C00468262 /* GenericService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericService.swift; sourceTree = "<group>"; };
+		76DC42562AB36D4B00928B5C /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		76DC425A2AB36E8F00928B5C /* HomeCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomTableViewCell.swift; sourceTree = "<group>"; };
+		76DC425D2AB36ED000928B5C /* HomeCustomTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomTableViewCellScreen.swift; sourceTree = "<group>"; };
 		9A491BE56FF002808522C64F /* Pods-Requisicao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Requisicao.release.xcconfig"; path = "Target Support Files/Pods-Requisicao/Pods-Requisicao.release.xcconfig"; sourceTree = "<group>"; };
 		A2F82CCD330A2A99FAD85AC6 /* Pods_Requisicao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Requisicao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F154ED40758544AD7AE09B20 /* Pods-Requisicao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Requisicao.debug.xcconfig"; path = "Target Support Files/Pods-Requisicao/Pods-Requisicao.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +87,7 @@
 		766C12882AACAAC900468262 /* Requisicao */ = {
 			isa = PBXGroup;
 			children = (
+				76DC42542AB36D4B00928B5C /* Utils */,
 				766C12AE2AAD09D900468262 /* Service */,
 				766C129D2AACAAEE00468262 /* JSON */,
 				766C12A72AACAB0D00468262 /* Feature */,
@@ -130,6 +137,7 @@
 		766C12A72AACAB0D00468262 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				76DC42582AB36E5E00928B5C /* Cells */,
 				766C12A82AACAEAD00468262 /* Model */,
 				766C12A02AACAB0800468262 /* Home */,
 			);
@@ -161,13 +169,53 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		76DC42542AB36D4B00928B5C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				76DC42552AB36D4B00928B5C /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		76DC42552AB36D4B00928B5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				76DC42562AB36D4B00928B5C /* UIView + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		76DC42582AB36E5E00928B5C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				76DC42592AB36E6300928B5C /* HomeCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		76DC42592AB36E6300928B5C /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				76DC425C2AB36EB700928B5C /* Screen */,
+				76DC425A2AB36E8F00928B5C /* HomeCustomTableViewCell.swift */,
+			);
+			path = HomeCell;
+			sourceTree = "<group>";
+		};
+		76DC425C2AB36EB700928B5C /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				76DC425D2AB36ED000928B5C /* HomeCustomTableViewCellScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		D9D4EAEF6025C36FA130C57F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F154ED40758544AD7AE09B20 /* Pods-Requisicao.debug.xcconfig */,
 				9A491BE56FF002808522C64F /* Pods-Requisicao.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -290,10 +338,13 @@
 				766C12AD2AAD08E600468262 /* HomeViewModel.swift in Sources */,
 				766C12AA2AACAEC300468262 /* HomeDataModel.swift in Sources */,
 				766C12A52AACAB0800468262 /* HomeVC.swift in Sources */,
+				76DC425E2AB36ED000928B5C /* HomeCustomTableViewCellScreen.swift in Sources */,
 				766C12B02AAD0AA600468262 /* DataService.swift in Sources */,
+				76DC425B2AB36E8F00928B5C /* HomeCustomTableViewCell.swift in Sources */,
 				766C12B22AAD0D1C00468262 /* GenericService.swift in Sources */,
 				766C128A2AACAAC900468262 /* AppDelegate.swift in Sources */,
 				766C128C2AACAAC900468262 /* SceneDelegate.swift in Sources */,
+				76DC42572AB36D4B00928B5C /* UIView + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
