@@ -32,4 +32,9 @@ class HomeCustomTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    
+    public func setupCell(data: HistoryAccountList) {
+        screen.genericLabel.text = data.name
+        screen.userimageView.image = UIImage(named: data.iconImage ?? "") 
+    }
 }

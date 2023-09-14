@@ -196,8 +196,8 @@
 		76DC42592AB36E6300928B5C /* HomeCell */ = {
 			isa = PBXGroup;
 			children = (
+				76DC425F2AB3721C00928B5C /* VC */,
 				76DC425C2AB36EB700928B5C /* Screen */,
-				76DC425A2AB36E8F00928B5C /* HomeCustomTableViewCell.swift */,
 			);
 			path = HomeCell;
 			sourceTree = "<group>";
@@ -208,6 +208,14 @@
 				76DC425D2AB36ED000928B5C /* HomeCustomTableViewCellScreen.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		76DC425F2AB3721C00928B5C /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				76DC425A2AB36E8F00928B5C /* HomeCustomTableViewCell.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		D9D4EAEF6025C36FA130C57F /* Pods */ = {

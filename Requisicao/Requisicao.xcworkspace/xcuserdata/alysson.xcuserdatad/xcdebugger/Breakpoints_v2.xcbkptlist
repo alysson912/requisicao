@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5E27A378-B768-4A5F-8AE2-9A94D7AD71D1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "430EE8AB-DE66-4BEC-A90B-4CCE6F0720AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Requisicao/Feature/Home/HomeVC/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "430EE8AB-DE66-4BEC-A90B-4CCE6F0720AB - 9c2d9df074c8e6c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Requisicao.HomeVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Requisicao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alysson/ios/UIKit/practicing/UIKit/requisicao/Requisicao/Requisicao/Feature/Home/HomeVC/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "430EE8AB-DE66-4BEC-A90B-4CCE6F0720AB - 1c9a0e6f7703128"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Requisicao.HomeVC.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Requisicao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alysson/ios/UIKit/practicing/UIKit/requisicao/Requisicao/Requisicao/Feature/Home/HomeVC/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0D4849B-3CEA-4B2F-9144-DD821C5195E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Requisicao/Feature/Home/HomeVC/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0D4849B-3CEA-4B2F-9144-DD821C5195E3 - 3f4926b099412c0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Requisicao.HomeVC.tableView(_: __C.UITableView, heightForRowAt: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
+                  moduleName = "Requisicao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alysson/ios/UIKit/practicing/UIKit/requisicao/Requisicao/Requisicao/Feature/Home/HomeVC/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "C0D4849B-3CEA-4B2F-9144-DD821C5195E3 - 9c2d9df074c8d9ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Requisicao.HomeVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Requisicao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alysson/ios/UIKit/practicing/UIKit/requisicao/Requisicao/Requisicao/Feature/Home/HomeVC/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "392CABAA-A24B-4175-A353-76ACBE8030B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Requisicao/Feature/Home/HomeViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "numberOfRowsInSection"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F881693A-6704-4B36-B96B-0D2F615469BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Requisicao/Feature/Home/HomeVC/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "error(detail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FEDCAE4-96D6-4AF7-B639-5F79C8D0212E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Requisicao/Feature/Home/HomeViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58C25DDC-985C-454E-BF5F-1ED451B3B329"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Requisicao/Feature/Home/HomeViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "58C25DDC-985C-454E-BF5F-1ED451B3B329 - c9d50ab271139067"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Requisicao.HomeDataModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Requisicao.HomeViewModel.fetchData() -&gt; ()"
+                  moduleName = "Requisicao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alysson/ios/UIKit/practicing/UIKit/requisicao/Requisicao/Requisicao/Feature/Home/HomeViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "920">
+               </Location>
+               <Location
+                  uuid = "58C25DDC-985C-454E-BF5F-1ED451B3B329 - c9d50ab271139067"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Requisicao.HomeDataModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Requisicao.HomeViewModel.fetchData() -&gt; ()"
+                  moduleName = "Requisicao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alysson/ios/UIKit/practicing/UIKit/requisicao/Requisicao/Requisicao/Feature/Home/HomeViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D4B2B5C-2E54-44DD-AEFC-75AD1FCD6DAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Requisicao/Feature/Home/HomeViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D4B2B5C-2E54-44DD-AEFC-75AD1FCD6DAC - c9d50ab271139098"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Requisicao.HomeDataModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Requisicao.HomeViewModel.fetchData() -&gt; ()"
+                  moduleName = "Requisicao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alysson/ios/UIKit/practicing/UIKit/requisicao/Requisicao/Requisicao/Feature/Home/HomeViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1128">
+               </Location>
+               <Location
+                  uuid = "9D4B2B5C-2E54-44DD-AEFC-75AD1FCD6DAC - c9d50ab271139098"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Requisicao.HomeDataModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Requisicao.HomeViewModel.fetchData() -&gt; ()"
+                  moduleName = "Requisicao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alysson/ios/UIKit/practicing/UIKit/requisicao/Requisicao/Requisicao/Feature/Home/HomeViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "852">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

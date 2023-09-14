@@ -22,7 +22,7 @@ class HomeScreen: UIView {
         return tableView
     }()
     
-    public func configConstraints(delegate: UITableViewDelegate, dataSource: UITableViewDataSource){
+    public func configTableView(delegate: UITableViewDelegate, dataSource: UITableViewDataSource){
         tableView.delegate = delegate
         tableView.dataSource = dataSource
     }

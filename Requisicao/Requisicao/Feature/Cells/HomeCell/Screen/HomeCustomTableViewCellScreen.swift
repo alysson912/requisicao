@@ -12,7 +12,7 @@ class HomeCustomTableViewCellScreen: UIView {
     lazy var userimageView : UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.image = UIImage(systemName: "iphone")
+       // image.image = UIImage(systemName: "iphone")
         image.contentMode = .scaleAspectFit
        
         return image
