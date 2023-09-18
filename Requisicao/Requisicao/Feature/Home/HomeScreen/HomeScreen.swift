@@ -33,6 +33,7 @@ class HomeScreen: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
         backgroundColor = .darkGray
         addViews()
         setupConstraints()
